@@ -2,7 +2,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { Provider } from "react-redux";
 import appStore from "./utils/appStore";
 import Hero from "./components/Hero";
-import WhyChooseUs from "./components/WhyChooseUS";
+import WhyChooseUs from "./components/WhyChooseUs";
 import Form from "./components/Form";
 import Submissions from "./components/Submissions";
 import Login from "./components/Login";

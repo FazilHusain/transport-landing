@@ -4,7 +4,7 @@ import { useDispatch, useSelector } from "react-redux";
 import axios from "axios";
 import { BASE_URL } from "../utils/constants";
 import { addUser } from "../utils/userSlice";
-import NavBar from "./NavBar";
+import Navbar from "./Navbar";
 import Footer from "./Footer";
 
 const Body = () => {
@@ -31,7 +31,7 @@ const Body = () => {
 
   return (
     <div className="flex flex-col min-h-screen">
-      {user && <NavBar />}
+      {user && <Navbar />}
       <main className="flex-1 pt-20 pb-40">
         <Outlet />
       </main>
